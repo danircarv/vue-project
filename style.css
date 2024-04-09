@@ -10,5 +10,16 @@ body{
     color: #e5e5e5;
 }
 
+#app{
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+}
 
+h1{
+    color: #f64348;
+    margin: 1rem auto .25rem;
+}
   
