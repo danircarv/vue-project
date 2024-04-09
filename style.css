@@ -23,3 +23,23 @@ h1{
     margin: 1rem auto .25rem;
 }
   
+button {
+    max-width: 20rem;
+    padding: .5rem;
+}
+
+button {
+    background-color: #f64348;
+    border: unset;
+    border-radius: .25rem;
+    color: #1c1a1d;
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+    filter: brightness(0.95);
+  }
+  
