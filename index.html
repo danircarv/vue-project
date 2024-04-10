@@ -11,8 +11,14 @@
 </head>
 <body>
     <div id="app">
-        <h1>Olá, {{ name }}!</h1> 
-        <button v-on:click="increaseCount">Contador: {{count}}</button>
+		<h2>GitHub User Data</h2>
+        <input type="text" v-model="searchInput">
+        <button v-on:click="fetchGithubUser">Carregar Usuário</button>
+        <img v-bind:src="avatar_url">
+        <strong>@{{ login }}</strong>
+        <h1>{{ name }}</h1>
+        <h2>{{ company }}</h2>
+        <span>{{ bio }}</span>
     </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="index.js"></script>
