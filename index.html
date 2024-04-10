@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="app"></div>
+    <div id="app">
+        <h1>Olá, {{ name }}!</h1> 
+        <button v-on:click="increaseCount">Contador: {{count}}</button>
+    </div>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <script src="index.js"></script>
 </body>
